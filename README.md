@@ -6,7 +6,7 @@ Instruktioner till hur man kan komma igång med ett Azure Container Registry
 
 Du behöver ha [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli), [Docker](https://docs.docker.com/get-docker/) och [Docker CLI](https://docs.docker.com/engine/).
 
-Dessutom behöver du ha ett microsoft-konto att logga in på Azure Portal med.
+Dessutom behöver du ha ett microsoft-konto att logga in på Azure Portal med. Här fungerar ditt studentkonto (kan kräva MFA aktiverat).
 
 ## Fig1
 
@@ -15,6 +15,8 @@ Logga in på [Azure Portal](https://portal.azure.com/). Välj att skapa en ny Co
 > ![image1](/img/fig1.png)
 
 ## Fig2
+
+Fyll i de fält som krävs. Du behöver skapa en ny resursgrupp med länken "ny".
 
 > ![image1](/img/fig2.png)
 
