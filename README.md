@@ -94,7 +94,7 @@ Testa genom att köra dessa kommandon. Först hämtar du en test-image.
 docker pull mcr.microsoft.com/mcr/hello-world
 ```
 
-Sen kan du tagga den att tillhöra ditt ACR och pusha den. Använd din "login server" som du noterade när du skapade resursen.
+Sen kan du tagga den att tillhöra ditt ACR och pusha den. Använd din _login server_ som du noterade när du skapade resursen.
 ```
 docker tag mcr.microsoft.com/mcr/hello-world testtechreport.azurecr.io/samples/hello-world
 docker push testtechreport.azurecr.io/samples/hello-world
