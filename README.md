@@ -88,9 +88,9 @@ az acr login --name testtechreport
 > [!NOTE]
 > Du kan behöva köra detta kommando varje gång du startar om ditt system.
 
-Nu bör du vara redo att börja använda ditt ACR.
+Nu bör du vara redo att börja använda ditt ACR. Testa genom att köra dessa kommandon, detta kan nu alla i gruppen med rättigheter nu göra.
 
-Testa genom att köra dessa kommandon. Först hämtar du en test-image.
+Först hämtar du en test-image.
 ```
 docker pull mcr.microsoft.com/mcr/hello-world
 ```
