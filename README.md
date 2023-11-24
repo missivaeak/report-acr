@@ -12,4 +12,4 @@ aoeaoeaoe
 
 aoeaoe
 
-!(image1)[https://raw.githubusercontent.com/missivaeak/report-acr/main/img/fig1.png]
+!(image1)[/img/fig1.png]
