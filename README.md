@@ -1,6 +1,6 @@
 # report-acr
 
-Instruktioner till hur man kan komma igång med ett Azure Container Registry.
+Instruktioner till hur man kan komma igång med ett Azure Container Registry. Azure Container Register (ACR) är en gratistjänst för att skapa ett *register* för images, där du kan ställa in vilka användare som har rättigheter att pusha och pulla images. Detta underlättar arbetsflödet vid grupprojekt då man bara behöver ställa in rättigheter en gång och sen kan alla jobbar med alla bilder i hela registret.
 
 ## Förutsättningar
 
