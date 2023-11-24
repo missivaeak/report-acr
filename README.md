@@ -25,35 +25,35 @@ Fyll i de fält som krävs. Du behöver skapa en ny resursgrupp med länken "cre
 ---
 
 ### Skapa resursen
-Klicka på "create". Vänta tills driftsättningen är klar och väl "go to resource".
+Klicka på `create`. Vänta tills driftsättningen är klar och väl `go to resource`.
 
 ![image1](/img/fig3.png)
 
 ---
 
 ### Konfigurera tillgång
-Gå till "access control" i navigeringsmenyn på vänster sida.
+Gå till `access control` i navigeringsmenyn på vänster sida.
 
 ![image1](/img/fig4.png)
 
 ---
 
 ### Lägg till ny roll
-Klicka på "role assignments" och sen "+ add".
+Klicka på `role assignments` och sen `+ add`.
 
 ![image1](/img/fig5.png)
 
 ---
 
 ### Välj rätt roll
-Välj rollen "acr push" för rättigheter att pusha och pulla till images i registret.
+Välj rollen `acr push` för rättigheter att pusha och pulla till images i registret.
 
 ![image1](/img/fig6.png)
 
 ---
 
 ### Lägg till personer i rollen
-Tryck på länken "+ select members".
+Tryck på länken `+ select members`.
 
 ![image1](/img/fig7.png)
 
@@ -67,7 +67,8 @@ Sök efter de personer som du vill lägg till i den valda rollen. `acr push` i d
 ---
 
 ### Notera login server
-Gå tillbaka till resursens överblick och notera "login server". `testtechreport.azurecr.io` i detta exemplet.
+
+Gå tillbaka till resursens överblick och notera `login server`. `testtechreport.azurecr.io` i detta exemplet.
 
 ![image1](/img/fig9.png)
 
@@ -79,7 +80,7 @@ Logga in på AzureCLI:
 az login
 ```
 
-Anslut ditt ACR (ersätt testtechreport med ditt registers namn):
+Anslut ditt ACR (ersätt _testtechreport_ med ditt registers namn):
 ```
 az acr login --name testtechreport
 ```
