@@ -12,4 +12,4 @@ aoeaoeaoe
 
 aoeaoe
 
-!(image1)[/img/fig1.png]
+![image1](/img/fig1.png)
