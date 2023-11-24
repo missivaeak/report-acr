@@ -75,10 +75,14 @@ Gå tillbaka till resursens överblick och notera "login server". `testtechrepor
 För att kunna börja använda ditt ACR behöver du logga in och ansluta det till docker.
 
 Logga in på AzureCLI:
-```az login```
+```
+az login
+```
 
 Anslut ditt ACR (ersätt testtechreport med ditt registers namn):
-```az acr login --name testtechreport```
+```
+az acr login --name testtechreport
+```
 
 > [!NOTE]
 > Du kan behöva köra detta kommando varje gång du startar om ditt system.
@@ -86,7 +90,9 @@ Anslut ditt ACR (ersätt testtechreport med ditt registers namn):
 Nu bör du vara redo att börja använda ditt ACR.
 
 Testa genom att köra dessa kommandon. Först hämtar du en test-image.
-```docker pull mcr.microsoft.com/mcr/hello-world```
+```
+docker pull mcr.microsoft.com/mcr/hello-world
+```
 
 Sen kan du tagga den att tillhöra ditt ACR och pusha den. Använd din "login server" som du noterade när du skapade resursen.
 ```
@@ -95,6 +101,8 @@ docker push testtechreport.azurecr.io/samples/hello-world
 ```
 
 Nu är den imagen i ditt ACR. Du kan hämta den med detta kommando:
-```docker pull testtechreport.azurecr.io/samples/hello-world```
+```
+docker pull testtechreport.azurecr.io/samples/hello-world
+```
 
 __Enjoy!__
